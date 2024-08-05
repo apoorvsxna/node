@@ -1,0 +1,1 @@
+- Any code that is present in between the server and client and can interact with both request and response.

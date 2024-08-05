@@ -3,7 +3,7 @@ const PORT = process.env.PORT;
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
-    res.statusCode = 200; // by default
+    res.statusCode = 200; // 200 by default
     
     res.write('<h1>Hello there.<h1>');
     res.end(); // not needed in Express
