@@ -1,0 +1,13 @@
+- runs on V8 Engine (also used by Google Chrome).
+ (For reference, Firefox uses Spidermonkey, Safari uses JavaScript Core)
+
+- V8 is written in C++. Converts JS code to machine code. Node extends this to allow JS to run server-side.
+
+- NON-BLOCKING - Doesn't wait for I/O operations. Instead uses events and callbacks, allowing JS to handle multiple connections at the same time.
+
+- SINGLE THREADED - Only has a single main thread. 
+** As a result, JS is not great for CPU-intensive tasks
+
+- EVENT LOOP - Mechanism to allow Node to perform non blocking IO operations.
+ If a network request is initiated (for example), it doesn't wait for it to complete. Instead, it continues with the rest of the code.
+ When the request is completed, it triggers a callback, and the callback is added to the event queue, which is then picked up the event loop.

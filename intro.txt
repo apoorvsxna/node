@@ -1,0 +1,5 @@
+- Open source RUNTIME for JavaScript
+- V8 JS engine (also used by Google Chrome)
+- For server-side dev and networking apps/APIs
+- Allows running JS outside browser (locally)
+- Most scalable and popular server-side JS runtime (others include Deno, Bun). 

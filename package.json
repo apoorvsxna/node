@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.js reference code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apoorv Saxena",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
